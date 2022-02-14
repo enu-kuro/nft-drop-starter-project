@@ -4,8 +4,11 @@
 }
 
 .gif-container {
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
+  column-gap: 20px;
+  row-gap: 20em;
 }
 
 .gif-grid {
@@ -13,7 +16,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1.5rem;
   justify-items: center;
-  margin: 0;
+  margin: 10px;
   padding: 20px 0 20px 0;
 }
 
@@ -30,4 +33,7 @@
   height: 200px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.nft {
 }
